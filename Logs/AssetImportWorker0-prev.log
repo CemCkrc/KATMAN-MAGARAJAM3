@@ -1,0 +1,267 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.2f1 (e5d502d80fbb) revision 15062274'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1083; Version 2009; 64bit' Language: 'tr' Physical Memory: 14284 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.2f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Cem/Documents/SistemHatasi
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51123
+Successfully changed project path to: C:/Users/Cem/Documents/SistemHatasi
+C:/Users/Cem/Documents/SistemHatasi
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 146.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.2f1 (e5d502d80fbb)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Cem/Documents/SistemHatasi/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15dd)
+    Vendor:   ATI
+    VRAM:     7142 MB
+    Driver:   27.20.22001.16006
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56404
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002647 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 165.94 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.031 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004845 seconds.
+Begin MonoManager ReloadAssembly
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 173.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.209 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.75 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 165.3 MB.
+System memory in use after: 162.6 MB.
+
+Unloading 50 unused Assets to reduce memory usage. Loaded Objects now: 4442.
+Total: 5.461400 ms (FindLiveObjects: 0.485800 ms CreateObjectMapping: 0.274600 ms MarkObjects: 3.210400 ms  DeleteObjects: 1.488700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+  artifactKey: Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset using Guid(2e498d1c8094910479dc3e1b768306a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c2ff02cf407b812c08fb28aac171f57') in 0.394198 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009226 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.473 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3935 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.8 MB.
+System memory in use after: 165.1 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4541.
+Total: 5.759200 ms (FindLiveObjects: 0.418200 ms CreateObjectMapping: 0.138600 ms MarkObjects: 3.598400 ms  DeleteObjects: 1.601000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2525.310756 seconds.
+  path: Assets/Logo.png
+  artifactKey: Guid(495ed66347b119c49be648f3de4dcdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Logo.png using Guid(495ed66347b119c49be648f3de4dcdc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bff5e1007c5c54c5b2fcf98387553c7') in 0.122942 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005939 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.01 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3935 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 165.6 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4561.
+Total: 10.516100 ms (FindLiveObjects: 0.859800 ms CreateObjectMapping: 0.342700 ms MarkObjects: 4.963300 ms  DeleteObjects: 4.345500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.18 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.313 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.97 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 165.6 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4564.
+Total: 11.090500 ms (FindLiveObjects: 1.027200 ms CreateObjectMapping: 0.428800 ms MarkObjects: 6.882300 ms  DeleteObjects: 2.747900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 189.551877 seconds.
+  path: Assets/Sahneler/OyunSahne.unity
+  artifactKey: Guid(831706c6d9314a64185aac157fb71c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/OyunSahne.unity using Guid(831706c6d9314a64185aac157fb71c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eca75464572293ee79c63bdcad6979d') in 0.025471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 270.108806 seconds.
+  path: Assets/Sahneler/AnaMenuSahne.unity
+  artifactKey: Guid(1f118e3ec6f2f054b85ec4004d3a6199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/AnaMenuSahne.unity using Guid(1f118e3ec6f2f054b85ec4004d3a6199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2a00e8c97d16e6c81dc99f1accb1352') in 0.014982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.287355 seconds.
+  path: Assets/Sahneler/OyunSahne.unity
+  artifactKey: Guid(831706c6d9314a64185aac157fb71c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/OyunSahne.unity using Guid(831706c6d9314a64185aac157fb71c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ac002d1c4e24feea924f3c569558564') in 0.015728 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005695 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.590 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 165.6 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4567.
+Total: 5.050200 ms (FindLiveObjects: 0.408400 ms CreateObjectMapping: 0.160800 ms MarkObjects: 2.941200 ms  DeleteObjects: 1.538100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009620 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.977 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 1.93 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.4 MB.
+System memory in use after: 165.6 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4570.
+Total: 9.133000 ms (FindLiveObjects: 0.886700 ms CreateObjectMapping: 0.288100 ms MarkObjects: 4.977700 ms  DeleteObjects: 2.976200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.323597 seconds.
+  path: Assets/Sahneler/OyunSahne.unity
+  artifactKey: Guid(831706c6d9314a64185aac157fb71c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sahneler/OyunSahne.unity using Guid(831706c6d9314a64185aac157fb71c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d3b47df36761036ba45d655dbe5c4f') in 0.023558 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008201 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.07 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.146 seconds
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on GameManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 2.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3934 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.3 MB.
+System memory in use after: 165.7 MB.
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 4573.
+Total: 12.311400 ms (FindLiveObjects: 2.622600 ms CreateObjectMapping: 0.624100 ms MarkObjects: 5.491300 ms  DeleteObjects: 3.568900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

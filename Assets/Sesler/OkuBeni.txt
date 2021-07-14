@@ -1,0 +1,4 @@
+Başka kaynaktan eklemiş olduğum müzikleri sildim. İstediğiniz müzik dosyalarını buraya kopyalayıp oyun içerisine ekleyebilirsiniz.
+
+Konuşma harici ses dosyaları alıntıdır. Ses paketi için MadRooster Game Audio Lab'a teşekkür ederim. Kullanmış olduğum ses dosyalarına ise aşağıdaki linkten ulaşabilirsiniz:
+https://www.madrooster.co
