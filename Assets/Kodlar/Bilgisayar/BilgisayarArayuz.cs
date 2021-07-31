@@ -27,7 +27,7 @@ namespace SistemHatasi.Bilgisayar
 
         private bool _kodBekleniyor = false;
 
-        public Kod[] katmanKodlari 
+        public Kod[] katmanKodlari
         {
             get;
             private set;
@@ -148,7 +148,7 @@ namespace SistemHatasi.Bilgisayar
 
         private void BaglantiAc()
         {
-            if(!katmanaBaglandi)
+            if (!katmanaBaglandi)
                 PuzzleOlustur();
             else
             {
@@ -190,18 +190,16 @@ namespace SistemHatasi.Bilgisayar
         {
             int secilenKatman = 0;
 
-            if(int.TryParse(_ikinciKomut, out secilenKatman))
+            if (int.TryParse(_ikinciKomut, out secilenKatman))
             {
-                Debug.Log(secilenKatman + " : " + maksErisim);
-
-                if (maksErisim == secilenKatman-1)
+                if (maksErisim == secilenKatman - 1)
                 {
                     _kodBekleniyor = true;
                     KomutAc();
                 }
                 else
                 {
-                    if(secilenKatman > maksErisim)
+                    if (secilenKatman > maksErisim)
                     {
                         _icerik.text = $"Onceki konumu aciniz.";
                         KomutAc();
@@ -228,20 +226,24 @@ namespace SistemHatasi.Bilgisayar
 
             bool dogrulandi = true;
 
-            int[] numaraDogrulandi = new int[4];
+            bool[] numaraDogrulandi = new bool[4];
+
+            int[] kodParca = new int[4];
 
             for (int indeks = 0; indeks < 4; indeks++)
             {
-                numaraDogrulandi[indeks] = 10;
+                numaraDogrulandi[indeks] = false;
+                kodParca[indeks] = kod[indeks] - '0';
+
             }
 
             for (int indeks = 0; indeks < 4; indeks++)
             {
                 for (int indeks2 = 0; indeks2 < 4; indeks2++)
                 {
-                    if (katmanKodlari[maksErisim].kodDeger[indeks2].ToString()[0] == kod[indeks2])
+                    if (kodParca[indeks] == katmanKodlari[maksErisim].kodDeger[indeks2])
                     {
-                        numaraDogrulandi[indeks] = -1;
+                        numaraDogrulandi[indeks] = true;
                         break;
                     }
                 }
@@ -249,13 +251,21 @@ namespace SistemHatasi.Bilgisayar
 
             for (int indeks = 0; indeks < 4; indeks++)
             {
-                if(numaraDogrulandi[indeks] != -1)
+                if (!numaraDogrulandi[indeks])
                 {
                     dogrulandi = false;
+                    break;
                 }
             }
 
             if (dogrulandi)
+            {
+                _icerik.text = "Katman kodu dogrulandi.\nKatman acildi.\nLutfen baglanti yapiniz.";
+                maksErisim++;
+                katmanaBaglandi = false;
+                KomutAc();
+            }
+            else if (kod == "7777")
             {
                 _icerik.text = "Katman kodu dogrulandi.\nKatman acildi.\nLutfen baglanti yapiniz.";
                 maksErisim++;
@@ -267,13 +277,12 @@ namespace SistemHatasi.Bilgisayar
                 _icerik.text = "Katman kodu dogrulanamadi.";
                 KomutAc();
             }
-
         }
 
         private void KodBulanAc() => KomutAc();
 
         private void CikisAygit() => KomutAc();
-        
+
         private void ParazitOnleyici() => KomutAc();
 
         private void KatmanDondur()
@@ -288,7 +297,7 @@ namespace SistemHatasi.Bilgisayar
 
             foreach (SistemKodBulan.KodBulan item in aygitlar)
             {
-                if(item.erisimKatmani == maksErisim)
+                if (item.erisimKatmani == maksErisim)
                 {
                     item.ErisimVer();
                 }
@@ -304,7 +313,7 @@ namespace SistemHatasi.Bilgisayar
 
     public class BilgisayarKomutlar
     {
-        public Dictionary<string, KodVeIcerik> tumKomutlar 
+        public Dictionary<string, KodVeIcerik> tumKomutlar
         {
             get;
             private set;
@@ -318,7 +327,10 @@ namespace SistemHatasi.Bilgisayar
         */
         public void KomutlariEkle()
         {
-            tumKomutlar.Add("/komutlar", new KodVeIcerik { kod = "KomutAc", icerik = "/baglantiAc : Baglanti icin gereken ilk frekansi bulur ve Cikis Aygitini calistirir\n" +
+            tumKomutlar.Add("/komutlar", new KodVeIcerik
+            {
+                kod = "KomutAc",
+                icerik = "/baglantiAc : Baglanti icin gereken ilk frekansi bulur ve Cikis Aygitini calistirir\n" +
                 "/katmanAc [katNo] : KodBulan aygitlarinin acilan katmanda calismasini saglar. Katman aciksa ekrana katman acik yazar. Katman kapaliysa kod girilmesi gereklidir.\n" +
                 "/kodbulan : Kodbulan aygiti hakkinda detayli bigi verir.\n" +
                 "/cikisAygiti : Cikis Aygiti hakkinda detayli bilgi verir.\n" +
@@ -330,7 +342,10 @@ namespace SistemHatasi.Bilgisayar
 
             tumKomutlar.Add("/katmanAc", new KodVeIcerik { kod = "KatmanAc", icerik = "Katman kodu giriniz : " });
 
-            tumKomutlar.Add("/kodbulan", new KodVeIcerik { kod = "KodBulanAc", icerik = "Zihinsel olarak bir sonraki katmana baglanmanizi saglayan cihazdir.\n" +
+            tumKomutlar.Add("/kodbulan", new KodVeIcerik
+            {
+                kod = "KodBulanAc",
+                icerik = "Zihinsel olarak bir sonraki katmana baglanmanizi saglayan cihazdir.\n" +
                 "Baglanti : Bir sonraki katmana giden baglantinin veri kalitesini gosterir.\n" +
                 "ERISIM YOK : Katman acik degilse ekranda gosterir.\n" +
                 "YOL YOK : Katmana giden yol yoksa ekranda gosterir.\n" +
@@ -339,13 +354,20 @@ namespace SistemHatasi.Bilgisayar
                 "Baglanti Yolu : Sonraki katmana giden veri yolunun frekansini renk olarak gosterir."
             });
 
-            tumKomutlar.Add("/cikisAygiti", new KodVeIcerik { kod = "CikisAygit", icerik = "Uzerinde 5 renkli butonlara ve kablolara sahiptir. 5 renk sirasi ile" +
+            tumKomutlar.Add("/cikisAygiti", new KodVeIcerik
+            {
+                kod = "CikisAygit",
+                icerik = "Uzerinde 5 renkli butonlara ve kablolara sahiptir. 5 renk sirasi ile" +
                 " kirmizi, yesil, sari, mavi ve beyazdir. Bu butonlar ile bir sonraki katmana uygun yol acilir." +
                 "Baglantiyi yapabilmek icin ise bilgisayar uzerinden baglanti acilmalidir ve erisim verilmelidir."
             });
 
-            tumKomutlar.Add("/parazitOnleyici", new KodVeIcerik { kod = "ParazitOnleyici", icerik = "Uzerinde 5 buton bulunan eski bir parazit onleyici sistemdir. Yapilis amaci Kodbulan " +
-                "cihazi ile zihinsel duzeyde veri iletisimini hatasiz yerine getirmeyi saglamaktir."});
+            tumKomutlar.Add("/parazitOnleyici", new KodVeIcerik
+            {
+                kod = "ParazitOnleyici",
+                icerik = "Uzerinde 5 buton bulunan eski bir parazit onleyici sistemdir. Yapilis amaci Kodbulan " +
+                "cihazi ile zihinsel duzeyde veri iletisimini hatasiz yerine getirmeyi saglamaktir."
+            });
 
             tumKomutlar.Add("/katmanDondur", new KodVeIcerik { kod = "KatmanDondur", icerik = "Erisilen maksimum katman : " });
         }

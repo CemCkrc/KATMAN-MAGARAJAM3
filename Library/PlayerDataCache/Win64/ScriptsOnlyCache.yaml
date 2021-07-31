@@ -2,13 +2,12 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - Menu
-    - OyunSonuCalistir
-    - SahneGecisiYap
     - SistemHatasi.Bilgisayar.BilgisayarArayuz
     - SistemHatasi.Bilgisayar.BilgisayarKontrolu
     - SistemHatasi.Bilgisayar.BilgisayarPuzzle
     - SistemHatasi.Bilgisayar.KodBlokObjeKontrol
     - SistemHatasi.Bilgisayar.KodYerlestirici
+    - SistemHatasi.Bilgisayar.OyunSonuCalistir
     - SistemHatasi.Bilgisayar.PuzzleParca
     - SistemHatasi.CikisAygiti.CikisAygitButon
     - SistemHatasi.CikisAygiti.CikisAygiti
@@ -19,6 +18,7 @@ ScriptsOnlyBuild:
     - SistemHatasi.OyuncuArayuzu.OyunIciMenu
     - SistemHatasi.ParazitOnleyici.ParazitOnleyici
     - SistemHatasi.ParazitOnleyici.ParazitOnleyiciButon
+    - SistemHatasi.SahneGecis.SahneGecisiYap
     - SistemHatasi.SistemKodBulan.KodBulan
     Unity.RenderPipelines.Core.Runtime.dll:
     - UnityEngine.Rendering.UI.DebugUIHandlerBitField
@@ -76,10 +76,8 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
@@ -150,13 +148,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1624}
-    - Class: 114
       Script: {instanceID: 1626}
     - Class: 114
       Script: {instanceID: 1628}
     - Class: 114
       Script: {instanceID: 1630}
+    - Class: 114
+      Script: {instanceID: 1632}
     - Class: 114
       Script: {instanceID: 1638}
     - Class: 114
@@ -174,9 +172,9 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3500}
+      Script: {instanceID: 3498}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 3604}
     - Class: 114
       Script: {instanceID: 3688}
     - Class: 114
@@ -220,47 +218,47 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5950}
     - Class: 114
-      Script: {instanceID: 6052}
+      Script: {instanceID: 6050}
     - Class: 114
-      Script: {instanceID: 6184}
+      Script: {instanceID: 6182}
     - Class: 114
-      Script: {instanceID: 6188}
+      Script: {instanceID: 6186}
     - Class: 114
-      Script: {instanceID: 6206}
+      Script: {instanceID: 6204}
     - Class: 114
-      Script: {instanceID: 6526}
+      Script: {instanceID: 6524}
     - Class: 114
-      Script: {instanceID: 6678}
+      Script: {instanceID: 6676}
     - Class: 114
-      Script: {instanceID: 6860}
+      Script: {instanceID: 6858}
     - Class: 114
-      Script: {instanceID: 6872}
+      Script: {instanceID: 6870}
     - Class: 114
-      Script: {instanceID: 6950}
+      Script: {instanceID: 6948}
     - Class: 114
-      Script: {instanceID: 6956}
+      Script: {instanceID: 6954}
     - Class: 114
-      Script: {instanceID: 7070}
+      Script: {instanceID: 7068}
     - Class: 114
-      Script: {instanceID: 7118}
+      Script: {instanceID: 7116}
     - Class: 114
-      Script: {instanceID: 7176}
+      Script: {instanceID: 7174}
     - Class: 114
-      Script: {instanceID: 7264}
+      Script: {instanceID: 7262}
     - Class: 114
-      Script: {instanceID: 7276}
+      Script: {instanceID: 7274}
     - Class: 114
-      Script: {instanceID: 7402}
+      Script: {instanceID: 7400}
     - Class: 114
-      Script: {instanceID: 7564}
+      Script: {instanceID: 7562}
     - Class: 114
-      Script: {instanceID: 7624}
+      Script: {instanceID: 7622}
     - Class: 114
-      Script: {instanceID: 7704}
+      Script: {instanceID: 7702}
     - Class: 114
-      Script: {instanceID: 7768}
+      Script: {instanceID: 7766}
     - Class: 114
       Script: {instanceID: 8536}
     - Class: 114
@@ -327,21 +325,21 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1628}
+      Script: {instanceID: 1630}
     - Class: 114
       Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 3604}
     - Class: 114
       Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 6678}
+      Script: {instanceID: 6676}
     - Class: 114
-      Script: {instanceID: 6872}
+      Script: {instanceID: 6870}
     - Class: 114
-      Script: {instanceID: 7264}
+      Script: {instanceID: 7262}
     - Class: 114
-      Script: {instanceID: 80082}
+      Script: {instanceID: 8098}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -406,9 +404,9 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1628}
-    - Class: 114
       Script: {instanceID: 1630}
+    - Class: 114
+      Script: {instanceID: 1632}
     - Class: 114
       Script: {instanceID: 1824}
     - Class: 114
@@ -424,9 +422,11 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3318}
     - Class: 114
-      Script: {instanceID: 3500}
+      Script: {instanceID: 3498}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 3604}
+    - Class: 114
+      Script: {instanceID: 3624}
     - Class: 114
       Script: {instanceID: 3870}
     - Class: 114
@@ -458,21 +458,21 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 6002}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6052}
+      Script: {instanceID: 6050}
     - Class: 114
-      Script: {instanceID: 6678}
+      Script: {instanceID: 6676}
     - Class: 114
-      Script: {instanceID: 6872}
+      Script: {instanceID: 6870}
     - Class: 114
-      Script: {instanceID: 7170}
+      Script: {instanceID: 7168}
     - Class: 114
-      Script: {instanceID: 7264}
+      Script: {instanceID: 7262}
     - Class: 114
-      Script: {instanceID: 7462}
+      Script: {instanceID: 7460}
     - Class: 114
-      Script: {instanceID: 7624}
+      Script: {instanceID: 7622}
     - Class: 114
       Script: {instanceID: 8526}
     - Class: 114
@@ -483,8 +483,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 9134}
     - Class: 114
       Script: {instanceID: 9190}
-    - Class: 114
-      Script: {instanceID: 155494}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -547,23 +545,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1628}
-    - Class: 114
       Script: {instanceID: 1630}
+    - Class: 114
+      Script: {instanceID: 1632}
     - Class: 114
       Script: {instanceID: 2898}
     - Class: 114
-      Script: {instanceID: 3606}
+      Script: {instanceID: 3604}
     - Class: 114
       Script: {instanceID: 5942}
     - Class: 114
-      Script: {instanceID: 6678}
+      Script: {instanceID: 6676}
     - Class: 114
-      Script: {instanceID: 6872}
+      Script: {instanceID: 6870}
     - Class: 114
-      Script: {instanceID: 7264}
+      Script: {instanceID: 7262}
     - Class: 114
-      Script: {instanceID: 80082}
+      Script: {instanceID: 8098}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -895,12 +893,6 @@ ScriptsOnlyBuild:
     className: UnityOnDropdownValueChangedMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: NumaraTutucu
-  - hash:
-      serializedVersion: 2
       Hash: 2cfa0393b5123bd14aa7b550fd8912e4
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
@@ -935,6 +927,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
     className: UniversalAdditionalCameraData
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SistemHatasi.Bilgisayar
+    className: OyunSonuCalistir
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
@@ -1051,7 +1049,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerToggleHistory
   - hash:
       serializedVersion: 2
-      Hash: 27cd74be94b19b53bc79775d5a517680
+      Hash: dd9c537b6a0dcf502f3ad4e37c41b856
     assemblyName: Assembly-CSharp.dll
     namespaceName: SistemHatasi.ParazitOnleyici
     className: ParazitOnleyici
@@ -1363,12 +1361,6 @@ ScriptsOnlyBuild:
     className: TMP_FontAsset
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: SistemHatasi.Kamera
-    className: Piksellestirici
-  - hash:
-      serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
     assemblyName: Unity.RenderPipelines.Core.Runtime.dll
     namespaceName: UnityEngine.Rendering.UI
@@ -1381,7 +1373,7 @@ ScriptsOnlyBuild:
     className: ChannelMixer
   - hash:
       serializedVersion: 2
-      Hash: a3e529d63ddae1287fddfc35de5e91d8
+      Hash: f2d11c3919fd8e07f5bf1a36ee447db4
     assemblyName: Assembly-CSharp.dll
     namespaceName: SistemHatasi.Bilgisayar
     className: BilgisayarPuzzle
@@ -1687,6 +1679,12 @@ ScriptsOnlyBuild:
     className: UnityOnPointerDownMessageListener
   - hash:
       serializedVersion: 2
+      Hash: 2433c5ec91032d90960853e08fd9419b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: SistemHatasi.SahneGecis
+    className: SahneGecisiYap
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
@@ -1759,7 +1757,7 @@ ScriptsOnlyBuild:
     className: ScrollRect
   - hash:
       serializedVersion: 2
-      Hash: 91af8c9c60202df9e7ac3498a794474e
+      Hash: d09e447638f2b1eeb39e73a527f5842b
     assemblyName: Assembly-CSharp.dll
     namespaceName: SistemHatasi.OyuncuArayuzu
     className: AnaMenu
@@ -1849,7 +1847,7 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerFoldout
   - hash:
       serializedVersion: 2
-      Hash: 365ba22dee45bc4e8a9d5efbc23a37f9
+      Hash: 8ab93c369933e6b04bcf04df97cc56c8
     assemblyName: Assembly-CSharp.dll
     namespaceName: SistemHatasi.SistemKodBulan
     className: KodBulan
@@ -1889,18 +1887,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: SistemHatasi.Fare
     className: FareKontrolu
-  - hash:
-      serializedVersion: 2
-      Hash: 2433c5ec91032d90960853e08fd9419b
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SahneGecisiYap
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OyunSonuCalistir
   platform: 19
   scenePathNames:
   - Assets/Sahneler/AnaMenuSahne.unity
