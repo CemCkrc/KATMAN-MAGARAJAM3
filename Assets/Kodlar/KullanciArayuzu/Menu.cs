@@ -4,5 +4,5 @@ using UnityEngine;
 
 public class Menu : MonoBehaviour
 {
-    //Menu ozellikleri ekle
+    //TODO: Menu ozellikleri ekle
 }
