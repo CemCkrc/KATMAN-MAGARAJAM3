@@ -10,7 +10,7 @@ Mağara Jam #3 kapsamında 72 saat içerisinde hazırlamış olduğum KATMAN adl
 Oyunun itch.io linki :
 https://cemckrc.itch.io/katman
 
-Oyunda bulunan tüm katmanlar ve diğer katlar ile olan bağlantıları : 
+Oyunda bulunan tüm katmanlar ve her katmanın diğer katmanlar ile olan bağlantıları : 
 https://drive.google.com/file/d/1OOi9hmmBW42XOVxqVwxGZNBo8AjSzYa1/view
 
 Oyun hakkında detaylı bilgi : 
